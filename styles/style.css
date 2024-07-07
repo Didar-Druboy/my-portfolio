@@ -16,6 +16,12 @@
     border:none;
     border-radius: 5px;
     padding: 15px 30px;
+    margin-right: 20px;
+}
+.contact{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
 }
 .dark1-bold30{
     font-weight: bold;
@@ -188,5 +194,46 @@ hr{
 }
 .resume-btn{
     margin: 42px auto 96px auto;
+    display: block;
+}
+/* *************************************** */
+footer{
+    background-color: #FFF8F3;
+}
+.footer{
+    display: flex;
+    max-width: 969px;
+    margin: 0 auto;
+    padding: 100px;
+}
+.connect-me{
+    width: 60%;
+    margin-right: 20px;
+}
+.message-me{
+    width: 40%;
+    margin-left: 15px;
+}
+.connect-me > p{
+    margin: 17px 0 25px 0;
+}
+.connect-me > a{
+    padding: 10px 15px;
+}
+footer input[type=text], input[type=email]{
+    height: 50px;
+    width: 380px;
+    margin: 10px 0px;
+    padding: 0px 15px;
+    border: none;
+}
+footer textarea{
+    height: 140px;
+    width: 380px;
+    margin: 10px 0px;
+    padding: 10px 15px;
+    border: none;
+}
+footer button{
     display: block;
 }
