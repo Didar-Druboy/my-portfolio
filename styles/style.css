@@ -17,10 +17,53 @@
     border-radius: 5px;
     padding: 15px 30px;
 }
+.dark1-bold30{
+    font-weight: bold;
+    font-size: 30px;
+    color: #181818;
+}
+.dark3-regular14{
+    font-size: 14px;
+    color: #757575;
+}
+.dark3-regular16{
+    font-size: 16px;
+    color: #757575;
+}
+.dark3-semibold17{
+    font-size: 17px;
+    color:#757575;
+    font-weight: 600;
+}
+.dark3-regular17{
+    font-size: 17px;
+    color:#757575;
+    
+}
+.dark2-bold17{
+    font-size: 17px;
+    color:#474747;
+    font-weight: bold;
+}
+.dark2-bold25{
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+}
+.dark2-bold21{
+    font-size: 21px;
+    color: #474747;
+    font-weight: bold;
+}
 .header{
+    padding: 30px 0px 0px 20px;
+    background-origin: content-box;
+    /* background-origin: content-box; eita na dile padding kaj kore na */ 
     background-image: url(../asset/developer.png), url(../asset/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    background-size: 116px 624px, 680px 440px;
+    background-color: #FFF8F3;
 }
 /* nav styles */
 
@@ -28,7 +71,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 42px 192px;
+    margin: 0px 180px;
 }
 
 .nav-title{
@@ -72,11 +115,78 @@ ul li a{
     margin-bottom: 17px;
 }
 .banner-description{
-    font-size: 15px;
-    color:#757575;
     margin-bottom: 25px;
 }
 .banner-profile-pic{
     width: 496px;
     height: 574px;
+}
+main{
+    max-width: 969px;
+    margin: 0 auto;
+
+}
+.about{
+    background-color: #FFF8F3;
+    max-width: 969px;
+    margin-top: 110px;
+    border-radius: 10px;
+    padding: 110px 133px;
+}
+.about-container{
+    max-width: 703px;
+    text-align: center;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.section-description{
+    margin: 25px 0;
+    padding: 0 5px;
+}
+/* ******************************* */
+.skills{
+    margin: 130px 0;
+    text-align: center;
+}
+.skill-item-container{
+    display: flex;
+    gap: 20px;
+    /* justify-content: flex-start; */
+}
+.skill-description{
+    padding: 25px 126px;
+}
+.skill-item{
+    text-align: left;
+    padding: 28px 28px 32px 28px;
+    box-shadow: 0px 6px 50px 0px rgb(216, 213, 213);
+}
+.skill-name{
+    padding: 17px 0px;
+}
+/* **************************************** */
+.education-experience-container{
+    display: flex;
+    gap:50px;
+}
+.resume-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.education, .experience{
+    margin-bottom: 25px;
+}
+.institute{
+    margin: 8px 0px 17px 0px;
+}
+hr{
+    margin: 25px 10px;
+}
+.resume-btn{
+    margin: 42px auto 96px auto;
+    display: block;
 }
